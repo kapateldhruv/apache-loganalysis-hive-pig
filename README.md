@@ -29,7 +29,9 @@ STORED AS TEXTFILE;
 
 ```
 
-2. Load data to hive table
+2.Load data to hive table
+
+
 ```
 LOAD DATA LOCAL INPATH "logs.txt" OVERWRITE INTO TABLE cleanned_logs;
 
