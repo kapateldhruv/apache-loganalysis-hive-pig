@@ -40,7 +40,7 @@ LOAD DATA LOCAL INPATH "logs.txt" OVERWRITE INTO TABLE cleanned_logs;
 You can use same table for the pig scripts as we did.
 
 ## How to run hits_browser and geoip scripts
-These scripts required UDF. UDF link is mentioned in comments section of scripts. Create your own jar using steps given on udf readme.
+These scripts required UDF. UDF link is mentioned in comments section of scripts. Create your own jar using steps given in udf readme.
 + For hive put UDF jars under `${HIVE_HOME}/auxlib/` so that you do not required to tun `ADD JAR` command everytime.
 + Modify pig scrpts and provice appropriate path of UDF jars.
 
